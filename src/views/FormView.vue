@@ -90,7 +90,7 @@
           const  vm = new Vue();
           vm.$bvToast.toast(`Tarefa salva com sucesso`, {
             title: 'Sucesso',
-            autoHideDelay: 5000,
+            autoHideDelay: 10000,
             variant: 'sucess'
           })
         },
@@ -98,7 +98,7 @@
           const  ve = new Vue();
           ve.$bvToast.toast(`Tarefa salva com sucesso`, {
             title: 'Erro na leitura',
-            autoHideDelay: 5000,
+            autoHideDelay: 10000,
             variant: 'danger'
           })
         }
